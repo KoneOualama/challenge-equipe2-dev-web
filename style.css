@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+  
+}
+
+.section1{
+    background-color: #F2EFEF;
+    height: 975px;
+}
+
+/*NAVBAR*/
+
+.navbar ul
+{
+padding: 0px 30px 0px 0px;
+}
+.navbar ul li a{
+    color: rgb(14, 13, 13);
+    margin: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    left: 500px;
+    position: relative;
+    
+}
+.navbar ul li a .fas{
+    padding-right:5px; 
+    padding-left:5px; 
+}
+.navbar ul li a:hover{
+    color: #15b000;
+}
+.navbar ul li.active > a {
+    color: #15b000;
+    font-weight: bold;
+    font-size: 12px;
+    border-left: 3px solid #15b000;
+    border-radius: 40px;
+}
+
+.bouton{
+    
+    width: 140px;
+    padding: 7px;
+    position: relative;
+    left: 550px;
+    
+}
+
+.titre{
+    left: 60px;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+
+.Text {
+    font-size: 75px;
+    color: #41b883;
+    padding: 50px;
+}
+
+.image{
+    
+    margin-left: 700px;
+    position: relative;
+    bottom: 590px;
+    
+
+}
+
+
+
+#logo img{
+position: absolute;
+display: block;
+overflow: hidden;
+margin-top: 3px;
+margin-left: 13px;
+top: 0px;}
+ 
+#logo img:hover{
+top: -50px;
+transition-duration: 1s;
+}
+
+.images2{
+    margin-left: 700px;
+    position: relative;
+    bottom: 990px;
+
+}
+
+#un:hover{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 8px 8px rgb(247, 247, 242);
+    
+}
+
+#deux:hover{
+    border: 1px solid rgb(250, 248, 248);
+    box-shadow: 8px 8px rgb(248, 248, 228);
+    
+}
+
+#trois:hover{
+    border: 1px solid rgb(250, 248, 248);
+    box-shadow: 8px 8px rgb(252, 252, 248);
+    border-radius: 5px;
+    
+}
+
+#bas{
+    position: relative;
+    top: 100px;
+}
+.yass:hover{
+    background-color: rgb(62, 74, 78);
+    width: 150px;
+    
+}
+
+.section3{
+    height: 920px;
+    background-color: #41b883;
+    width: 100%;
+    position: relative;
+    top: 200px;
+}
+    
+.milieu{
+    margin-left: 105px;
+}
+
+.square{
+    position: relative;
+    margin-right: 20px;
+}
+
+
+    
+    .image img {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    }
+    .image:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+    }
+
+
+
